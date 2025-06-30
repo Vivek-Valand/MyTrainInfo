@@ -73,7 +73,7 @@ async def cancel(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
 
 # 5️⃣ Entry point
 if __name__ == "__main__":
-    app = ApplicationBuilder().token("YOUR_TELEGRAM_TOKEN").build()
+    app = ApplicationBuilder().token("7292174685:AAFLvwL4qh_KjGbddj3pZlVL-9f41uy-Iig").build()
     conv = ConversationHandler(
         entry_points=[CommandHandler("start", start)],
         states={
